@@ -1,0 +1,55 @@
+{
+  "name": "util-snippets",
+  "version": "1.1.0",
+  "description": "Helpful JavaScript Snippets",
+  "main": "./build/index.js",
+  "scripts": {
+    "dev": "npm run tsc:w",
+    "build": "npm run test && npm run lint && tsc",
+    "lint": "prettier --write --parser typescript 'src/**/*.ts' 'test/**/*.ts'",
+    "tsc:w": "tsc --watch",
+    "test:w": "jest --watchAll",
+    "test": "jest",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "git add . && lint-staged && tsc "
+    }
+  },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --parser=typescript --write",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czero1995/util-snippets"
+  },
+  "keywords": [
+    "Util",
+    "TypeScript",
+    "NodeJS"
+  ],
+  "author": "czero1995",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czero1995/util-snippets/issues"
+  },
+  "homepage": "https://github.com/czero1995/util-snippets",
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.3",
+    "ts-jest": "^24.1.0",
+    "tslint": "^6.1.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.2",
+    "vuepress": "^1.4.0"
+  }
+}

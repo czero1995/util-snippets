@@ -1,7 +1,3 @@
-![](https://user-gold-cdn.xitu.io/2019/11/15/16e6df264521bffb?w=664&h=279&f=png&s=20260)
-
-English | [简体中文](./README.zh-CN.md)
-
 
 ## Introduce
 
@@ -9,17 +5,17 @@ English | [简体中文](./README.zh-CN.md)
 * Introduce code snippets as NPM to improve code maintainability.
 
 ## Link
+Github:  [https://github.com/czero1995/util-snippets](https://github.com/czero1995/util-snippets)
 
 NPM:  [https://www.npmjs.com/package/util-snippets](https://www.npmjs.com/package/util-snippets)
-
-Docs Link: [http://snippets.fancystore.cn/en/guide/](http://snippets.fancystore.cn/en/guide/)
-
 
 ## Technology
 
 * Base <font color=red>TypeScript</font>。
 * Use <font color=red>Jest</font> test code。
 * Use <font color=red>VuePress</font> code docs
+
+
 
 
 ## Install NPM Package
