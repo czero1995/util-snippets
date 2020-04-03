@@ -1,6 +1,6 @@
-### 节流
+### 防抖
 
-`节流函数，经常用于监听滚动条事件`
+`防抖函数，经常用于搜索框实时搜索`
 
 <template>
     <b>使用</b>
@@ -9,7 +9,7 @@
 ```ts
 import { debounce } from 'util-snippets'
 
-deepClone(fn(),time)
+debounce(fn(),time)
 ```
 
 <template>

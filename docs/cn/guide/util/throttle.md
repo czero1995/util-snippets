@@ -1,15 +1,15 @@
-### 防抖
+### 节流
 
-`防抖函数，经典的用于搜索框实时搜索，提高性能。`
+`节流函数，用户滚动条监听做的性能优化`
 
 <template>
     <b>使用</b>
 </template>
 
 ```ts
-import { debounce } from 'util-snippets'
+import { throttle } from 'util-snippets'
 
-deepClone(fn(),time)
+throttle(fn(),time)
 ```
 
 <template>

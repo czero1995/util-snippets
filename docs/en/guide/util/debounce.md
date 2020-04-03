@@ -7,7 +7,7 @@
 ```ts
 import { debounce } from 'util-snippets'
 
-deepClone(fn(),time)
+debounce(fn(),time)
 ```
 
 <template>

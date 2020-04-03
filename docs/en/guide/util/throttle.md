@@ -1,13 +1,13 @@
-### debounce
+### throttle
 
 <template>
     <b>Use</b>
 </template>
 
 ```ts
-import { debounce } from 'util-snippets'
+import { throttle } from 'util-snippets'
 
-deepClone(fn(),time)
+throttle(fn(),time)
 ```
 
 <template>
